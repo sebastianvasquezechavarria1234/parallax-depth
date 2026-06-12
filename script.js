@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
         end: "+=150%",
         pin: true,
         scrub: true,
-        markers: true
+        markers: false
       }
     })
     .to("img", {
