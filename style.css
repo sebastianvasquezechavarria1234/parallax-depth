@@ -45,3 +45,19 @@
   object-fit: cover;
   object-position: center center;
 }
+
+.buttons {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  z-index: 999;
+}
+
+.btn {
+  color: #fff;
+  font-style: italic;
+  text-decoration: underline;
+}
